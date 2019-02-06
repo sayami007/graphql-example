@@ -5,7 +5,7 @@ var {buildSchema} = require('graphql');
 // GraphQL WSchema
 var schema = buildSchema(`
     type Query{
-        message:String
+        message:String,
     }
 `);
 
